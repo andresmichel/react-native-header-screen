@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "description": "React Native Header Screen",
   "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "header",
+    "screen"
+  ],
   "repository": "https://github.com/andresmichel/react-native-header-screen",
   "author": "Andres Michel",
   "license": "MIT",
