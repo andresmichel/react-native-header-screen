@@ -1,6 +1,6 @@
 {
   "name": "react-native-header-screen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "React Native Header Screen",
   "main": "index.js",
   "keywords": [
@@ -19,6 +19,7 @@
   "author": "Andres Michel",
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "react-native-status-bar-height": "^2.3.1"
   }
 }
