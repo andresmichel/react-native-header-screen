@@ -5,6 +5,7 @@ import {
   Text,
   StyleSheet,
 } from 'react-native'
+import { getStatusBarHeight } from 'react-native-status-bar-height'
 
 export default class HeaderScreen extends React.Component {
   render() {
@@ -69,7 +70,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   headerContainer: {
-    paddingTop: 0,
+    paddingTop: getStatusBarHeight(true),
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
   infoContainer: {
