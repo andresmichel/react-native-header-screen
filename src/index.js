@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   headerContainer: {
-    paddingTop: getStatusBarHeight(true),
+    paddingTop: getStatusBarHeight(),
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
   infoContainer: {
