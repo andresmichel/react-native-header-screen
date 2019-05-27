@@ -7,6 +7,10 @@ import {
 } from 'react-native'
 import { getStatusBarHeight } from 'react-native-status-bar-height'
 
+function isIphoneX() {
+  return getStatusBarHeight() === 44
+}
+
 export default class HeaderScreen extends React.Component {
   render() {
     const { color, borderColor, backgroundColor } = this.props
@@ -74,7 +78,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
   infoContainer: {
-    marginTop: 10,
+    marginTop: isIphoneX() ? 10 : 20,
     marginBottom: 20,
     marginRight: 20,
     flexDirection: 'row',
